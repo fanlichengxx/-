@@ -1,0 +1,93 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			"navigationStyle": "custom",
+			"enablePullDownRefresh": false
+		
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#D42A1B",
+				"navigationBarTextStyle": "white"
+			}
+		
+		}, {
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "村服务站",
+				"navigationBarBackgroundColor": "#D42A1B",
+				"navigationBarTextStyle": "white"
+			}
+		
+		}
+    ],
+	"subPackages": [
+		{
+		"root": "subPackages",
+		"pages": [{
+			"path" : "Join/Join",
+			"style" : 
+			{
+				"navigationBarTitleText" : "加入我们"
+			}
+		},
+		{
+			"path" : "Activity/Activity",
+			"style" : 
+			{
+				"navigationBarTitleText" : "村活动汇总"
+			}
+		}
+            ]
+	},
+	{
+		"root": "subTwoPackages",
+		"pages": [
+	        ]
+	}
+	],
+	
+	"tabBar": {
+		"color": "#AEB5C3",
+		"selectedColor": "#2869FE",
+		"fontSize": "26rpx",
+		"iconWidth": "40rpx",
+		"spacing": "10rpx",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/table/home.png",
+				"selectedIconPath": "/static/table/home1.png"
+			},
+			{
+					"pagePath": "pages/service/service",
+					"text": "村服务站",
+					"iconPath": "/static/table/yun.png",
+					"selectedIconPath": "/static/table/yun1.png"
+				},
+			{
+				"pagePath": "pages/my/my",
+				"text": "个人中心",
+				"iconPath": "/static/table/my.png",
+				"selectedIconPath": "/static/table/my1.png"
+			}
+		]
+	},
+
+	"globalStyle": {
+
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"__usePrivacyCheck__": true
+}

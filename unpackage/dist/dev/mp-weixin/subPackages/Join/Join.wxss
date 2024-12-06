@@ -1,0 +1,39 @@
+
+.btn {
+	width: 686rpx;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	color: #fff;
+	background-color: #2869FE;
+	border-radius: 8rpx;
+}
+.btn_fix {
+	position: fixed;
+	bottom: 5%;
+	left: 32rpx;
+}
+.icon_img1 {
+	display: flex;
+	align-items: center;
+}
+.input {
+	width: 400rpx;
+	height: 80rpx;
+	text-align: right;
+}
+.input_box {
+	width: 710rpx;
+	padding: 20rpx 30rpx;
+	background-color: #fff;
+	margin-left: 20rpx;
+	margin-top: 30rpx;
+}
+.input_ {
+	display: flex;
+	align-items: center;
+	font-size: 28rpx;
+	justify-content: space-between;
+	margin-top: 25rpx;
+}
+

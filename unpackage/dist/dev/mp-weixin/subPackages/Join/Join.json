@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "加入我们",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationBarBackgroundColor": "#D42A1B",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "l-echart": "/uni_modules/lime-echart/components/l-echart/l-echart"
+  }
+}

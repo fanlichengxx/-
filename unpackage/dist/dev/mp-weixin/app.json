@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/service/service"
+  ],
+  "subPackages": [
+    {
+      "root": "subPackages",
+      "pages": [
+        "Join/Join",
+        "Activity/Activity"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#AEB5C3",
+    "selectedColor": "#2869FE",
+    "fontSize": "26rpx",
+    "iconWidth": "40rpx",
+    "spacing": "10rpx",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/table/home.png",
+        "selectedIconPath": "/static/table/home1.png"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "村服务站",
+        "iconPath": "/static/table/yun.png",
+        "selectedIconPath": "/static/table/yun1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "/static/table/my.png",
+        "selectedIconPath": "/static/table/my1.png"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "startLocationUpdateBackground",
+    "chooseAddress",
+    "chooseLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取当前定位"
+    }
+  },
+  "usingComponents": {}
+}

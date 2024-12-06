@@ -1,0 +1,1 @@
+<view><view style="width:622rpx;height:622rpx;"><l-echart class="vue-ref" bind:finished="__e" vue-id="704e9d00-1" data-ref="chartRef" data-event-opts="{{[['^finished',[['init']]]]}}" bind:__l="__l"></l-echart></view></view>
